@@ -1,0 +1,24 @@
+/* LeftPanel.css */
+.left-panel {
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .left-panel ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-panel ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .left-panel ul li:hover {
+    background-color: #ddd;
+  }
+  
